@@ -1,0 +1,36 @@
+.coronavac {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  position: fixed;
+  width: 260px;
+  width: 100vw;
+  height: 360px;
+  z-index: 10000;
+  background: #FFF;  
+  transform: translateY(100%);
+  transition: 200ms ease-in;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.coronavac.open {
+    transform: translate(0%, 0%);   
+    transition: 200ms ease-in;
+}
+
+.coronavac-bg {
+    width: 0;
+    height: 0;
+    background-color: #000;
+    opacity: 0.85;
+    z-index: 10000;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.coronavac-bg.open {
+    width: 100vw;
+    height: 100vh;
+}
