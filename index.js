@@ -46,5 +46,5 @@ selectJs.addEventListener('change', (e) => {
     setTimeout(function() {
         coronavac.classList.toggle('open');
         coronavacBg.classList.toggle('open');
-    }, 1100);
+    }, 900);
 });
