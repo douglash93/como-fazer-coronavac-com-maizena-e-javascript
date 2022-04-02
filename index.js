@@ -42,7 +42,7 @@ switchMaizena.addEventListener('change', (e) => {
 
 selectJs.addEventListener('change', (e) => {
     let imagem = imagens.find(x => x.includes(e.target.value));
-    document.querySelector('#imgBgJs').src = `/img/${imagem}`;
+    document.querySelector('#imgBgJs').src = `img/${imagem}`;
     setTimeout(function() {
         coronavac.classList.toggle('open');
         coronavacBg.classList.toggle('open');
